@@ -1,16 +1,53 @@
-# React + Vite
+# 👨‍💻 Setthapong Pomrung - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ยินดีต้อนรับสู่ Source Code ของ Portfolio ส่วนตัวของผมครับ! เว็บนี้สร้างขึ้นเพื่อรวบรวมผลงาน ประสบการณ์ทำงาน และทักษะต่างๆ ที่ผมมี โดยเน้นที่ความเรียบง่าย อ่านง่าย และประสบการณ์การใช้งานที่ดี (UX/UI)
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://my-portfolio-web-setthapong.vercel.app](https://my-portfolio-web-setthapong.vercel.app) *(ถ้ามีลิงก์ Vercel แล้วสามารถเอามาใส่ตรงนี้ได้เลย)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features น่าสนใจ
 
-## React Compiler
+- **🌙 Dark/Light Mode:** รองรับทั้งโหมดมืดและสว่าง พร้อมจำค่าไว้ใน LocalStorage
+- **🌐 2 Languages (TH/EN):** สลับภาษาไทยและอังกฤษได้ทันทีโดยไม่ต้องโหลดหน้าใหม่
+- **📱 Fully Responsive:** แสดงผลได้พอดีทั้งบนมือถือ แท็บเล็ต และคอมพิวเตอร์
+- **🖼️ Interactive Gallery:** ส่วนของ Experience มีระบบ Lightbox กดซูมดูรูปผลงานได้เต็มจอ
+- **⚡ Fast Performance:** พัฒนาด้วย Vite ทำให้เว็บโหลดเร็วมาก
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack ที่ใช้
 
-## Expanding the ESLint configuration
+- **Framework:** React.js + Vite
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 วิธีการรันโปรเจกต์ในเครื่อง (Run Locally)
+
+ถ้าอยากลองเอาไปรันบนเครื่องตัวเอง ทำตามนี้ได้เลยครับ:
+
+1. Clone repository นี้ลงเครื่อง
+```bash
+git clone https://github.com/Setthapong18/MyPortfolioWEB.git
+```
+
+2. เข้าไปในโฟลเดอร์โปรเจกต์
+```bash
+cd MyPortfolioWEB
+```
+
+3. ติดตั้ง Dependencies ทั้งหมด
+```bash
+npm install
+```
+
+4. สั่งรันเซิร์ฟเวอร์
+```bash
+npm run dev
+```
+
+จากนั้นเปิดเบราว์เซอร์ไปที่ `http://localhost:5173` ได้เลย!
+
+## 📬 การติดต่อ
+
+สามารถติดต่อหรือดูผลงานอื่นๆ ของผมได้ที่:
+- **GitHub:** [@Setthapong18](https://github.com/Setthapong18)
+
+---
+*Built with ❤️ by Setthapong Pomrung*
