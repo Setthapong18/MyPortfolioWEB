@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Setthapong Pomrung",
+    "title": "Fullstack Developer",
+    "description": "I build web and mobile applications with modern technologies. Passionate about creating efficient, user-friendly solutions from frontend to backend.",
+    "downloadResume": "Download Resume",
+    "viewGitHub": "View GitHub"
+  },
+  "about": {
+    "label": "// about me",
+    "title": "About Me",
+    "p1": "I'm a final-year student at Rajamangala University of Technology Thanyaburi, pursuing a Bachelor's Degree in Information and Digital Technology. With a solid foundation in both frontend and backend development, I enjoy building complete solutions from the ground up.",
+    "p2": "During my internship at Thai Bridgestone, I developed 4 internal web applications that digitized manual workflows, gaining hands-on experience with React, Node.js, and SQL Server in a real-world industrial environment.",
+    "p3": "I'm seeking opportunities as a Fullstack Developer where I can apply my skills in React, Node.js, Flutter, and modern web technologies to build impactful products."
+  },
+  "skills": {
+    "label": "// tech stack",
+    "title": "Skills & Technologies",
+    "categories": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "database": "Database",
+      "tools": "Tools"
+    }
+  },
+  "experience": {
+    "label": "// work experience",
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Software Developer Intern",
+        "company": "Thai Bridgestone — Nongkhae Plant",
+        "period": "2025",
+        "description": [
+          "Developed 4 internal web applications including Stock Control and IP Dashboard to digitize manual workflows and improve operational speed.",
+          "Implemented real-time databases, CRUD functionalities, and reporting tools for management auditing."
+        ],
+        "tools": [
+          "React",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "SQL Server"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "// featured projects",
+    "title": "Projects",
+    "viewCode": "View Code",
+    "liveDemo": "Live Demo",
+    "items": [
+      {
+        "title": "KidGuard App",
+        "type": "Senior Project",
+        "period": "2025 – 2026",
+        "description": "A comprehensive parental control mobile application utilizing Flutter and Firebase to help parents monitor their children's digital habits and safety.",
+        "highlights": [
+          "Real-time location tracking",
+          "Customizable screen time limits",
+          "Selective application blocking"
+        ],
+        "tools": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Cloud Firestore",
+          "Geolocator"
+        ],
+        "github": "https://github.com/Setthapong18",
+        "website": "https://kid-guard-web.vercel.app",
+        "badge": "Senior Project"
+      },
+      {
+        "title": "Smart Dormitory Lighting",
+        "type": "IoT Project",
+        "period": "2025",
+        "description": "An automated, energy-efficient lighting system to reduce electricity waste in dormitories with 3 control modes.",
+        "highlights": [
+          "Scheduled control (RTC Module)",
+          "Auto mode (LDR sensor for ambient light)",
+          "Manual control (Blynk Mobile App)"
+        ],
+        "tools": [
+          "NodeMCU ESP8266",
+          "LDR Sensor",
+          "Relay Module",
+          "RTC Module",
+          "Blynk"
+        ],
+        "github": "https://github.com/Setthapong18"
+      },
+      {
+        "title": "Social Network Mobile App",
+        "type": "Mobile App",
+        "period": "2024",
+        "description": "A mobile social media application focusing on real-time user interactions built with Flutter and Firebase.",
+        "highlights": [
+          "Real-time messaging",
+          "User profiles & feeds",
+          "Firebase Realtime Database"
+        ],
+        "tools": [
+          "Flutter",
+          "Firebase",
+          "Realtime Database"
+        ],
+        "github": "https://github.com/Setthapong18"
+      },
+      {
+        "title": "Sports E-commerce Web App",
+        "type": "Web App",
+        "period": "2024",
+        "description": "A responsive web application for selling sports equipment with focus on backend and database management.",
+        "highlights": [
+          "Product catalog & search",
+          "Shopping cart system",
+          "Order management"
+        ],
+        "tools": [
+          "Node.js",
+          "Express.js",
+          "MySQL"
+        ],
+        "github": "https://github.com/Setthapong18"
+      },
+      {
+        "title": "E-commerce Website",
+        "type": "Web App",
+        "period": "2023",
+        "description": "A full-stack e-commerce website handling both frontend display and backend systems.",
+        "highlights": [
+          "Frontend & backend integration",
+          "Product management system",
+          "User authentication"
+        ],
+        "tools": [
+          "PHP",
+          "Bootstrap",
+          "MySQL"
+        ],
+        "github": "https://github.com/Setthapong18"
+      }
+    ]
+  },
+  "education": {
+    "label": "// education",
+    "title": "Education",
+    "degree": "Bachelor's Degree in Information and Digital Technology",
+    "university": "Rajamangala University of Technology Thanyaburi",
+    "period": "2022 – 2026",
+    "gpa": "3.16"
+  },
+  "contact": {
+    "label": "// get in touch",
+    "title": "Contact Me",
+    "description": "I'm currently looking for Fullstack Developer opportunities. Feel free to reach out!",
+    "email": "setthapongc@gmail.com",
+    "phone": "098-621-7686",
+    "github": "https://github.com/Setthapong18",
+    "address": "Nongkhae, Saraburi",
+    "sendMessage": "Send Message",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message"
+  },
+  "footer": {
+    "builtWith": "Built with React & Tailwind CSS",
+    "rights": "All rights reserved."
+  }
+}

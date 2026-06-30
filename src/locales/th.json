@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "about": "เกี่ยวกับ",
+    "skills": "ทักษะ",
+    "experience": "ประสบการณ์",
+    "projects": "ผลงาน",
+    "education": "การศึกษา",
+    "contact": "ติดต่อ",
+    "resume": "เรซูเม่"
+  },
+  "hero": {
+    "greeting": "สวัสดีครับ, ผม",
+    "name": "เศรษฐพงศ์ พรหมรุ่ง",
+    "title": "Fullstack Developer",
+    "description": "ผมสร้างเว็บแอปพลิเคชันและโมบายแอปพลิเคชันด้วยเทคโนโลยีที่ทันสมัย มุ่งมั่นสร้างผลงานที่มีประสิทธิภาพและใช้งานง่าย ตั้งแต่ Frontend ถึง Backend",
+    "downloadResume": "ดาวน์โหลดเรซูเม่",
+    "viewGitHub": "ดู GitHub"
+  },
+  "about": {
+    "label": "// เกี่ยวกับผม",
+    "title": "เกี่ยวกับผม",
+    "p1": "ผมเป็นนักศึกษาชั้นปีสุดท้ายที่มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี สาขาเทคโนโลยีสารสนเทศและดิจิทัล มีพื้นฐานที่แข็งแกร่งทั้งด้าน Frontend และ Backend ผมชอบสร้างโซลูชันที่สมบูรณ์ตั้งแต่ต้น",
+    "p2": "ระหว่างฝึกงานที่ Thai Bridgestone ผมพัฒนาเว็บแอปพลิเคชันภายใน 4 ระบบ เพื่อเปลี่ยนกระบวนการทำงานแบบ Manual ให้เป็นดิจิทัล ได้รับประสบการณ์จริงในการใช้ React, Node.js และ SQL Server ในสภาพแวดล้อมอุตสาหกรรม",
+    "p3": "ผมกำลังมองหาโอกาสในตำแหน่ง Fullstack Developer เพื่อนำทักษะด้าน React, Node.js, Flutter และเทคโนโลยีเว็บสมัยใหม่มาสร้างผลิตภัณฑ์ที่มีคุณค่า"
+  },
+  "skills": {
+    "label": "// เทคโนโลยี",
+    "title": "ทักษะและเทคโนโลยี",
+    "categories": {
+      "languages": "ภาษาโปรแกรม",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "โมบายล์",
+      "database": "ฐานข้อมูล",
+      "tools": "เครื่องมือ"
+    }
+  },
+  "experience": {
+    "label": "// ประสบการณ์ทำงาน",
+    "title": "ประสบการณ์",
+    "items": [
+      {
+        "role": "นักพัฒนาซอฟต์แวร์ (ฝึกงาน)",
+        "company": "Thai Bridgestone — โรงงานหนองแค",
+        "period": "2568 (2025)",
+        "description": [
+          "พัฒนาเว็บแอปพลิเคชันภายใน 4 ระบบ รวมถึงระบบ Stock Control และ IP Dashboard เพื่อเปลี่ยนกระบวนการทำงานแบบ Manual ให้เป็นดิจิทัลและเพิ่มประสิทธิภาพการดำเนินงาน",
+          "พัฒนาฐานข้อมูลแบบ Real-time, ฟังก์ชัน CRUD และเครื่องมือรายงานสำหรับการตรวจสอบของฝ่ายบริหาร"
+        ],
+        "tools": ["React", "Tailwind CSS", "Node.js", "Express.js", "SQL Server"]
+      }
+    ]
+  },
+  "projects": {
+    "label": "// ผลงานโปรเจคท์",
+    "title": "ผลงาน",
+    "viewCode": "ดูโค้ด",
+    "liveDemo": "ดูตัวอย่าง",
+    "items": [
+      {
+        "title": "KidGuard App",
+        "type": "โปรเจคจบ (Senior Project)",
+        "period": "2568 – 2569",
+        "description": "แอปพลิเคชันควบคุมการใช้งานสำหรับผู้ปกครอง พัฒนาด้วย Flutter และ Firebase ช่วยให้ผู้ปกครองติดตามพฤติกรรมดิจิทัลและความปลอดภัยของบุตรหลาน",
+        "highlights": [
+          "ติดตามตำแหน่งแบบ Real-time",
+          "กำหนดเวลาใช้งานหน้าจอ",
+          "บล็อกแอปพลิเคชันที่ต้องการ"
+        ],
+        "tools": ["Flutter", "Dart", "Firebase", "Cloud Firestore", "Geolocator"],
+        "github": "https://github.com/Setthapong18",
+        "website": "https://kid-guard-web.vercel.app",
+        "badge": "Senior Project"
+      },
+      {
+        "title": "Smart Dormitory Lighting",
+        "type": "โปรเจค IoT",
+        "period": "2568",
+        "description": "ระบบไฟอัตโนมัติประหยัดพลังงานสำหรับหอพัก มี 3 โหมดควบคุม",
+        "highlights": [
+          "ตั้งเวลา (RTC Module)",
+          "โหมดอัตโนมัติ (เซ็นเซอร์วัดแสง LDR)",
+          "ควบคุมด้วยมือถือ (Blynk App)"
+        ],
+        "tools": ["NodeMCU ESP8266", "LDR Sensor", "Relay Module", "RTC Module", "Blynk"],
+        "github": "https://github.com/Setthapong18"
+      },
+      {
+        "title": "Social Network Mobile App",
+        "type": "โมบายแอป",
+        "period": "2567",
+        "description": "แอปพลิเคชันโซเชียลมีเดีย เน้นการโต้ตอบแบบ Real-time พัฒนาด้วย Flutter และ Firebase",
+        "highlights": [
+          "แชทแบบ Real-time",
+          "โปรไฟล์ผู้ใช้และฟีด",
+          "Firebase Realtime Database"
+        ],
+        "tools": ["Flutter", "Firebase", "Realtime Database"],
+        "github": "https://github.com/Setthapong18"
+      },
+      {
+        "title": "Sports E-commerce Web App",
+        "type": "เว็บแอป",
+        "period": "2567",
+        "description": "เว็บแอปพลิเคชันขายอุปกรณ์กีฬา เน้น Backend และการจัดการฐานข้อมูล",
+        "highlights": [
+          "แคตตาล็อกสินค้าและค้นหา",
+          "ระบบตะกร้าสินค้า",
+          "จัดการคำสั่งซื้อ"
+        ],
+        "tools": ["Node.js", "Express.js", "MySQL"],
+        "github": "https://github.com/Setthapong18"
+      },
+      {
+        "title": "E-commerce Website",
+        "type": "เว็บแอป",
+        "period": "2566",
+        "description": "เว็บไซต์ E-commerce แบบ Full-stack ครบทั้ง Frontend และ Backend",
+        "highlights": [
+          "เชื่อมต่อ Frontend กับ Backend",
+          "ระบบจัดการสินค้า",
+          "ระบบยืนยันตัวตน"
+        ],
+        "tools": ["PHP", "Bootstrap", "MySQL"],
+        "github": "https://github.com/Setthapong18"
+      }
+    ]
+  },
+  "education": {
+    "label": "// การศึกษา",
+    "title": "การศึกษา",
+    "degree": "ปริญญาตรี สาขาเทคโนโลยีสารสนเทศและดิจิทัล",
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี",
+    "period": "2565 – 2569",
+    "gpa": "3.16"
+  },
+  "contact": {
+    "label": "// ติดต่อ",
+    "title": "ติดต่อผม",
+    "description": "ผมกำลังมองหาตำแหน่ง Fullstack Developer สามารถติดต่อผมได้ครับ!",
+    "email": "setthapongc@gmail.com",
+    "phone": "098-621-7686",
+    "github": "https://github.com/Setthapong18",
+    "address": "หนองแค, สระบุรี",
+    "sendMessage": "ส่งข้อความ",
+    "namePlaceholder": "ชื่อของคุณ",
+    "emailPlaceholder": "อีเมลของคุณ",
+    "messagePlaceholder": "ข้อความ"
+  },
+  "footer": {
+    "builtWith": "สร้างด้วย React & Tailwind CSS",
+    "rights": "สงวนลิขสิทธิ์"
+  }
+}
