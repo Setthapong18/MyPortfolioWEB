@@ -5,6 +5,20 @@ import bridgestoneLogo from '../PIC From Bridge Stone/Bridgestone.png'
 // ข้อมูล 4 ระบบ Bridgestone พร้อม screenshots
 const BRIDGESTONE_SYSTEMS = [
   {
+    id: 'kkstock',
+    name: 'KK Stock',
+    desc: 'ระบบ Stock วัสดุสิ้นเปลือง Mat In/Out พร้อม Balance Report',
+    color: 'from-emerald-500 to-emerald-700',
+    screenshots: [
+      { src: '/bridgestone/kkstock-home.png', label: 'Home' },
+      { src: '/bridgestone/kkstock-matin.png', label: 'Mat In' },
+      { src: '/bridgestone/kkstock-matout.png', label: 'Mat Out' },
+      { src: '/bridgestone/kkstock-balance.png', label: 'Balance' },
+      { src: '/bridgestone/kkstock-dashboard-balance.png', label: 'Dashboard Balance' },
+      { src: '/bridgestone/kkstock-dashboard-matin.png', label: 'Dashboard Mat In' },
+    ],
+  },
+  {
     id: 'itstock',
     name: 'IT Stock',
     desc: 'ระบบจัดการคลังอุปกรณ์ IT — Mat In/Out, ยืม-คืน, Balance Stock, Dashboard',
@@ -14,6 +28,18 @@ const BRIDGESTONE_SYSTEMS = [
       { src: '/bridgestone/itstock-in.png', label: 'Mat In' },
       { src: '/bridgestone/itstock-out.png', label: 'Mat Out' },
       { src: '/bridgestone/itstock-balance.png', label: 'Balance' },
+      { src: '/bridgestone/itstock-b.png', label: 'Borrow' },
+      { src: '/bridgestone/itstock-r.png', label: 'Return' },
+    ],
+  },
+  {
+    id: 'disposal',
+    name: 'IT Disposal System',
+    desc: 'ระบบจัดการของเก่า/ชำรุด รองรับ Upload รูปภาพ, Export รายงาน',
+    color: 'from-rose-500 to-rose-700',
+    screenshots: [
+      { src: '/bridgestone/disposal-home.png', label: 'Home' },
+      { src: '/bridgestone/disposal-scan.png', label: 'Summary' },
     ],
   },
   {
@@ -23,26 +49,6 @@ const BRIDGESTONE_SYSTEMS = [
     color: 'from-indigo-500 to-indigo-700',
     screenshots: [
       { src: '/bridgestone/ip-status.png', label: 'Dashboard' },
-    ],
-  },
-  {
-    id: 'disposal',
-    name: 'Disposal System',
-    desc: 'ระบบจัดการของเก่า/ชำรุด รองรับ Upload รูปภาพ, Export รายงาน',
-    color: 'from-rose-500 to-rose-700',
-    screenshots: [
-      { src: '/bridgestone/disposal-home.png', label: 'Home' },
-      { src: '/bridgestone/disposal-scan.png', label: 'Scan' },
-    ],
-  },
-  {
-    id: 'kkstock',
-    name: 'KK Stock',
-    desc: 'ระบบ Stock วัสดุสิ้นเปลือง Mat In/Out พร้อม Balance Report',
-    color: 'from-emerald-500 to-emerald-700',
-    screenshots: [
-      { src: '/bridgestone/kkstock-home.png', label: 'Home' },
-      { src: '/bridgestone/kkstock-balance.png', label: 'Balance' },
     ],
   },
 ]
