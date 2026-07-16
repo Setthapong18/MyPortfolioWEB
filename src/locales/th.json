@@ -45,7 +45,7 @@
         "period": "2568 (2025)",
         "description": [
           "พัฒนาเว็บแอปพลิเคชันภายใน 4 ระบบ รวมถึงระบบ Stock Control และ IP Dashboard เพื่อเปลี่ยนกระบวนการทำงานแบบ Manual ให้เป็นดิจิทัลและเพิ่มประสิทธิภาพการดำเนินงาน",
-          "พัฒนาฐานข้อมูลแบบ Real-time, ฟังก์ชัน CRUD และเครื่องมือรายงานสำหรับการตรวจสอบของฝ่ายบริหาร"
+          "ออกแบบโครงสร้างฐานข้อมูล (SQL Server), พัฒนาฟังก์ชัน CRUD และเครื่องมือรายงานสำหรับการตรวจสอบของฝ่ายบริหาร"
         ],
         "tools": ["React", "Tailwind CSS", "Node.js", "Express.js", "SQL Server"]
       }
@@ -71,6 +71,22 @@
         "github": "https://github.com/Setthapong18",
         "website": "https://kid-guard-web.vercel.app",
         "badge": "Senior Project"
+      },
+      {
+        "title": "Pedestrian Detection System",
+        "type": "AI Group Project",
+        "period": "2568",
+        "description": "ระบบ Computer Vision สำหรับตรวจจับคนเดินแบบ Real-time ด้วย YOLOv8m เทรนด้วยชุดข้อมูล 14,578 ภาพ ได้ความแม่นยำ mAP50 ที่ 73.17% พร้อม Output เป็น Video สาธิตการตรวจจับจริง",
+        "highlights": [
+          "YOLOv8m — โมเดล Object Detection ล้ำสมัย",
+          "เทรนด้วย 14,578 ภาพ (Train 98% / Valid 1% / Test 1%)",
+          "mAP50: 73.17% · mAP50-95: 43.36%",
+          "Output วิดีโอ Real-time Pedestrian Detection"
+        ],
+        "tools": ["Python", "YOLOv8m", "Ultralytics", "OpenCV", "Computer Vision"],
+        "github": "https://github.com/Setthapong18",
+        "demo": "https://drive.google.com/file/d/14rXP8cYy7C7L658t7EFvDVmmfYM9w9mO/view?usp=sharing",
+        "badge": "AI / CV"
       },
       {
         "title": "Smart Dormitory Lighting",

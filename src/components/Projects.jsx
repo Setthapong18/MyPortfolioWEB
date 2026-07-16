@@ -175,6 +175,12 @@ function DefaultProjectCard({ project, i, t }) {
             <h3 className="text-xl font-bold text-heading dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
               {project.title}
             </h3>
+            {project.badge && (
+              <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold
+                               bg-amber-500 text-white shadow-sm shrink-0">
+                {project.badge}
+              </span>
+            )}
           </div>
           <div className="flex items-center gap-3">
             <span className="text-xs font-mono text-primary-600 dark:text-primary-400 bg-primary-50 dark:bg-primary-900/30 px-2 py-0.5 rounded-sm border border-primary-100 dark:border-primary-800">
@@ -209,12 +215,20 @@ function DefaultProjectCard({ project, i, t }) {
         ))}
       </div>
 
-      {project.website && (
-        <div className="mt-4 pt-4 border-t border-border/50 dark:border-gray-700">
-          <a href={project.website} target="_blank" rel="noopener noreferrer"
-             className="inline-flex items-center gap-1.5 text-sm text-primary-600 dark:text-primary-400 font-medium hover:underline cursor-pointer">
-            {t('projects.liveDemo')} <ExternalIcon />
-          </a>
+      {(project.website || project.demo) && (
+        <div className="mt-4 pt-4 border-t border-border/50 dark:border-gray-700 flex flex-wrap gap-3">
+          {project.website && (
+            <a href={project.website} target="_blank" rel="noopener noreferrer"
+               className="inline-flex items-center gap-1.5 text-sm text-primary-600 dark:text-primary-400 font-medium hover:underline cursor-pointer">
+              {t('projects.liveDemo')} <ExternalIcon />
+            </a>
+          )}
+          {project.demo && (
+            <a href={project.demo} target="_blank" rel="noopener noreferrer"
+               className="inline-flex items-center gap-1.5 text-sm text-amber-600 dark:text-amber-400 font-medium hover:underline cursor-pointer">
+              🎬 View Demo <ExternalIcon />
+            </a>
+          )}
         </div>
       )}
     </div>
