@@ -6,7 +6,7 @@ import th from '../locales/th.json'
 const translations = { en, th }
 
 export default function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState('en')
+  const [language, setLanguage] = useState('th')
 
   const toggleLanguage = useCallback(() => {
     setLanguage(prev => (prev === 'en' ? 'th' : 'en'))

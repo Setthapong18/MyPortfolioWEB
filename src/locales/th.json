@@ -10,10 +10,12 @@
   },
   "hero": {
     "greeting": "สวัสดีครับ, ผม",
-    "name": "เศรษฐพงศ์ พรหมรุ่ง",
+    "name": "เศรษฐพงศ์ ป้อมรุ่ง",
     "title": "Fullstack Developer",
     "description": "ผมสร้างเว็บแอปพลิเคชันและโมบายแอปพลิเคชันด้วยเทคโนโลยีที่ทันสมัย มุ่งมั่นสร้างผลงานที่มีประสิทธิภาพและใช้งานง่าย ตั้งแต่ Frontend ถึง Backend",
     "downloadResume": "ดาวน์โหลดเรซูเม่",
+    "downloadCV": "ดาวน์โหลด CV",
+    "selectLanguage": "เลือกภาษา",
     "viewGitHub": "ดู GitHub"
   },
   "about": {
@@ -47,7 +49,13 @@
           "พัฒนาเว็บแอปพลิเคชันภายใน 4 ระบบ รวมถึงระบบ Stock Control และ IP Dashboard เพื่อเปลี่ยนกระบวนการทำงานแบบ Manual ให้เป็นดิจิทัลและเพิ่มประสิทธิภาพการดำเนินงาน",
           "ออกแบบโครงสร้างฐานข้อมูล (SQL Server), พัฒนาฟังก์ชัน CRUD และเครื่องมือรายงานสำหรับการตรวจสอบของฝ่ายบริหาร"
         ],
-        "tools": ["React", "Tailwind CSS", "Node.js", "Express.js", "SQL Server"]
+        "tools": [
+          "React",
+          "Tailwind CSS",
+          "Node.js",
+          "Express.js",
+          "SQL Server"
+        ]
       }
     ]
   },
@@ -67,24 +75,16 @@
           "กำหนดเวลาใช้งานหน้าจอ",
           "บล็อกแอปพลิเคชันที่ต้องการ"
         ],
-        "tools": ["Flutter", "Dart", "Firebase", "Cloud Firestore", "Geolocator"],
+        "tools": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Cloud Firestore",
+          "Geolocator"
+        ],
         "github": "https://github.com/Setthapong18/KID_GUARD_WEB",
         "website": "https://kid-guard-web.vercel.app",
         "badge": "Senior Project"
-      },
-      {
-        "title": "Pedestrian Detection System",
-        "type": "AI Group Project",
-        "period": "2568",
-        "description": "ระบบ Computer Vision สำหรับตรวจจับคนเดินแบบ Real-time ด้วย YOLOv8m พร้อม Output เป็น Video สาธิตการตรวจจับจริง",
-        "highlights": [
-          "YOLOv8m — โมเดล Object Detection ล้ำสมัย",
-          "Output วิดีโอ Real-time Pedestrian Detection"
-        ],
-        "tools": ["Python", "YOLOv8m", "Ultralytics", "OpenCV", "Computer Vision"],
-        "github": "https://github.com/Setthapong18/Computer-Vision-AI",
-        "demo": "https://drive.google.com/file/d/14rXP8cYy7C7L658t7EFvDVmmfYM9w9mO/view?usp=sharing",
-        "badge": "AI / CV"
       },
       {
         "title": "Smart Dormitory Lighting",
@@ -96,8 +96,34 @@
           "โหมดอัตโนมัติ (เซ็นเซอร์วัดแสง LDR)",
           "ควบคุมด้วยมือถือ (Blynk App)"
         ],
-        "tools": ["NodeMCU ESP8266", "LDR Sensor", "Relay Module", "RTC Module", "Blynk"],
+        "tools": [
+          "NodeMCU ESP8266",
+          "LDR Sensor",
+          "Relay Module",
+          "RTC Module",
+          "Blynk"
+        ],
         "github": "https://github.com/Setthapong18/Smart-Dormitory-Lighting-Control-System-IoT-Project-"
+      },
+      {
+        "title": "Pedestrian Detection System",
+        "type": "AI Group Project",
+        "period": "2567",
+        "description": "ระบบ Computer Vision สำหรับตรวจจับคนเดินแบบ Real-time ด้วย YOLOv8m พร้อม Output เป็น Video สาธิตการตรวจจับจริง",
+        "highlights": [
+          "YOLOv8m — โมเดล Object Detection ล้ำสมัย",
+          "Output วิดีโอ Real-time Pedestrian Detection"
+        ],
+        "tools": [
+          "Python",
+          "YOLOv8m",
+          "Ultralytics",
+          "OpenCV",
+          "Computer Vision"
+        ],
+        "github": "https://github.com/Setthapong18/Computer-Vision-AI",
+        "demo": "https://drive.google.com/file/d/14rXP8cYy7C7L658t7EFvDVmmfYM9w9mO/view?usp=sharing",
+        "badge": "AI / CV"
       },
       {
         "title": "Social Network Mobile App",
@@ -109,7 +135,11 @@
           "โปรไฟล์ผู้ใช้และฟีด",
           "Firebase Realtime Database"
         ],
-        "tools": ["Flutter", "Firebase", "Realtime Database"],
+        "tools": [
+          "Flutter",
+          "Firebase",
+          "Realtime Database"
+        ],
         "github": "https://github.com/Setthapong18/Social_Media_APP"
       },
       {
@@ -122,7 +152,11 @@
           "ระบบตะกร้าสินค้า",
           "จัดการคำสั่งซื้อ"
         ],
-        "tools": ["Node.js", "Express.js", "MySQL"],
+        "tools": [
+          "Node.js",
+          "Express.js",
+          "MySQL"
+        ],
         "github": "https://github.com/Setthapong18/SportE-CommerceWeb"
       },
       {
@@ -135,7 +169,11 @@
           "ระบบจัดการสินค้า",
           "ระบบยืนยันตัวตน"
         ],
-        "tools": ["PHP", "Bootstrap", "MySQL"],
+        "tools": [
+          "PHP",
+          "Bootstrap",
+          "MySQL"
+        ],
         "github": "https://github.com/Setthapong18/E-CommercePHP"
       }
     ]

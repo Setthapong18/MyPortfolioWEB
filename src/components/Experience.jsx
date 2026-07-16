@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useLanguage } from '../hooks/useLanguage'
+import bridgestoneLogo from '../PIC From Bridge Stone/Bridgestone.png'
 
 // ข้อมูล 4 ระบบ Bridgestone พร้อม screenshots
 const BRIDGESTONE_SYSTEMS = [
@@ -93,8 +94,8 @@ function Lightbox({ images, startIndex, onClose }) {
 
         {/* Image */}
         <img key={idx} src={images[idx].src} alt={images[idx].label}
-             className="w-full max-h-[80vh] object-contain bg-gray-950"
-             style={{ animation: 'fadeIn 0.25s ease' }} />
+          className="w-full max-h-[80vh] object-contain bg-gray-950"
+          style={{ animation: 'fadeIn 0.25s ease' }} />
 
         {/* Prev / Next (only if multiple) */}
         {images.length > 1 && (
@@ -137,7 +138,7 @@ function SystemGallery({ system }) {
           <div className={`w-8 h-8 rounded-lg bg-gradient-to-br ${system.color}
                           flex items-center justify-center flex-shrink-0`}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white"
-                 strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <rect x="2" y="3" width="20" height="14" rx="2" />
               <line x1="8" y1="21" x2="16" y2="21" />
               <line x1="12" y1="17" x2="12" y2="21" />
@@ -179,7 +180,7 @@ function SystemGallery({ system }) {
                             bg-black/20 pointer-events-none">
               <div className="bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                  <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                  <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
                 </svg>
                 <span className="text-white text-xs font-medium">ขยาย</span>
               </div>
@@ -203,11 +204,10 @@ function SystemGallery({ system }) {
               <button
                 key={i}
                 onClick={() => setActive(i)}
-                className={`px-2.5 py-1 text-xs font-medium rounded-md transition-all duration-150 cursor-pointer ${
-                  active === i
-                    ? `bg-gradient-to-r ${system.color} text-white shadow-sm`
-                    : 'bg-gray-100 dark:bg-gray-700 text-muted dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-600'
-                }`}
+                className={`px-2.5 py-1 text-xs font-medium rounded-md transition-all duration-150 cursor-pointer ${active === i
+                  ? `bg-gradient-to-r ${system.color} text-white shadow-sm`
+                  : 'bg-gray-100 dark:bg-gray-700 text-muted dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-600'
+                  }`}
               >
                 {shot.label}
               </button>
@@ -241,7 +241,7 @@ export default function Experience() {
               <div className="absolute left-0 md:left-8 top-1 -translate-x-1/2 w-4 h-4
                               bg-primary-500 border-4 border-surface-alt dark:border-gray-900 rounded-full z-10" />
 
-              <div className="hidden md:block absolute left-0 top-0 -translate-x-1 font-mono text-xs text-primary-500 dark:text-primary-400 font-bold">
+              <div className="hidden md:block absolute left-8 top-0 -translate-x-full pr-3 font-mono text-xs text-primary-500 dark:text-primary-400 font-bold whitespace-nowrap text-right">
                 {item.period}
               </div>
 
@@ -250,7 +250,18 @@ export default function Experience() {
                 <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
                   <div>
                     <h3 className="text-xl font-bold text-heading dark:text-gray-100">{item.role}</h3>
-                    <p className="text-primary-600 dark:text-primary-400 font-medium">{item.company}</p>
+                    <div className="flex items-center gap-3 mt-2">
+                      {item.company.includes('Bridgestone') && (
+                        <div className="w-10 h-10 bg-white rounded-md shadow-sm border border-gray-200 dark:border-gray-700 flex items-center justify-center p-1.5 shrink-0">
+                          <img
+                            src={bridgestoneLogo}
+                            alt="Bridgestone"
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                      )}
+                      <p className="text-primary-600 dark:text-primary-400 font-semibold">{item.company}</p>
+                    </div>
                   </div>
                   <span className="md:hidden font-mono text-xs text-primary-500 bg-primary-50 dark:bg-primary-900/30 dark:text-primary-400 px-2 py-1 rounded-sm font-bold">
                     {item.period}
