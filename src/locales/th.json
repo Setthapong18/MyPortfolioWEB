@@ -68,7 +68,7 @@
           "บล็อกแอปพลิเคชันที่ต้องการ"
         ],
         "tools": ["Flutter", "Dart", "Firebase", "Cloud Firestore", "Geolocator"],
-        "github": "https://github.com/Setthapong18",
+        "github": "https://github.com/Setthapong18/KID_GUARD_WEB",
         "website": "https://kid-guard-web.vercel.app",
         "badge": "Senior Project"
       },
@@ -76,15 +76,13 @@
         "title": "Pedestrian Detection System",
         "type": "AI Group Project",
         "period": "2568",
-        "description": "ระบบ Computer Vision สำหรับตรวจจับคนเดินแบบ Real-time ด้วย YOLOv8m เทรนด้วยชุดข้อมูล 14,578 ภาพ ได้ความแม่นยำ mAP50 ที่ 73.17% พร้อม Output เป็น Video สาธิตการตรวจจับจริง",
+        "description": "ระบบ Computer Vision สำหรับตรวจจับคนเดินแบบ Real-time ด้วย YOLOv8m พร้อม Output เป็น Video สาธิตการตรวจจับจริง",
         "highlights": [
           "YOLOv8m — โมเดล Object Detection ล้ำสมัย",
-          "เทรนด้วย 14,578 ภาพ (Train 98% / Valid 1% / Test 1%)",
-          "mAP50: 73.17% · mAP50-95: 43.36%",
           "Output วิดีโอ Real-time Pedestrian Detection"
         ],
         "tools": ["Python", "YOLOv8m", "Ultralytics", "OpenCV", "Computer Vision"],
-        "github": "https://github.com/Setthapong18",
+        "github": "https://github.com/Setthapong18/Computer-Vision-AI",
         "demo": "https://drive.google.com/file/d/14rXP8cYy7C7L658t7EFvDVmmfYM9w9mO/view?usp=sharing",
         "badge": "AI / CV"
       },
@@ -99,7 +97,7 @@
           "ควบคุมด้วยมือถือ (Blynk App)"
         ],
         "tools": ["NodeMCU ESP8266", "LDR Sensor", "Relay Module", "RTC Module", "Blynk"],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/Smart-Dormitory-Lighting-Control-System-IoT-Project-"
       },
       {
         "title": "Social Network Mobile App",
@@ -112,7 +110,7 @@
           "Firebase Realtime Database"
         ],
         "tools": ["Flutter", "Firebase", "Realtime Database"],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/Social_Media_APP"
       },
       {
         "title": "Sports E-commerce Web App",
@@ -125,7 +123,7 @@
           "จัดการคำสั่งซื้อ"
         ],
         "tools": ["Node.js", "Express.js", "MySQL"],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/SportE-CommerceWeb"
       },
       {
         "title": "E-commerce Website",
@@ -138,7 +136,7 @@
           "ระบบยืนยันตัวตน"
         ],
         "tools": ["PHP", "Bootstrap", "MySQL"],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/E-CommercePHP"
       }
     ]
   },

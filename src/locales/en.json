@@ -80,7 +80,7 @@
           "Cloud Firestore",
           "Geolocator"
         ],
-        "github": "https://github.com/Setthapong18",
+        "github": "https://github.com/Setthapong18/KID_GUARD_WEB",
         "website": "https://kid-guard-web.vercel.app",
         "badge": "Senior Project"
       },
@@ -88,11 +88,9 @@
         "title": "Pedestrian Detection System",
         "type": "AI Group Project",
         "period": "2025",
-        "description": "A Computer Vision system for real-time pedestrian detection using YOLOv8m, trained on a large-scale dataset of 14,578 images. Achieved 73.17% mAP50 accuracy with video output demonstrating live person detection.",
+        "description": "A Computer Vision system for real-time pedestrian detection using YOLOv8m. Includes a video output demonstrating live person detection.",
         "highlights": [
           "YOLOv8m model — state-of-the-art object detection",
-          "Trained on 14,578 images (98% train / 1% val / 1% test)",
-          "mAP50: 73.17% · mAP50-95: 43.36%",
           "Real-time pedestrian detection output video"
         ],
         "tools": [
@@ -102,7 +100,7 @@
           "OpenCV",
           "Computer Vision"
         ],
-        "github": "https://github.com/Setthapong18",
+        "github": "https://github.com/Setthapong18/Computer-Vision-AI",
         "demo": "https://drive.google.com/file/d/14rXP8cYy7C7L658t7EFvDVmmfYM9w9mO/view?usp=sharing",
         "badge": "AI / CV"
       },
@@ -123,7 +121,7 @@
           "RTC Module",
           "Blynk"
         ],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/Smart-Dormitory-Lighting-Control-System-IoT-Project-"
       },
       {
         "title": "Social Network Mobile App",
@@ -140,7 +138,7 @@
           "Firebase",
           "Realtime Database"
         ],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/Social_Media_APP"
       },
       {
         "title": "Sports E-commerce Web App",
@@ -157,7 +155,7 @@
           "Express.js",
           "MySQL"
         ],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/SportE-CommerceWeb"
       },
       {
         "title": "E-commerce Website",
@@ -174,7 +172,8 @@
           "Bootstrap",
           "MySQL"
         ],
-        "github": "https://github.com/Setthapong18"
+        "github": "https://github.com/Setthapong18/E-CommercePHP",
+        "badge": "Web App"
       }
     ]
   },
